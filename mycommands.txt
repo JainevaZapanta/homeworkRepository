@@ -1,0 +1,10 @@
+mkdir homework
+cd homework
+git init
+touch myfile.txt
+echo "Initial commit" > myfile.txt
+git add myfile.txt
+git commit -m "My first commit"
+git log
+git branch new-branch
+git checkout new-branch
